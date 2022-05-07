@@ -3,7 +3,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import Header from "./components/Header"
 import StakeDetails from './components/StakeDetails'
-
+import StakeForm from './components/StakeForm'
 
 
 
@@ -24,6 +24,7 @@ export default function Home() {
         </h1>
         </div>
       <StakeDetails />
+      <StakeForm />
         
       </main>
 
